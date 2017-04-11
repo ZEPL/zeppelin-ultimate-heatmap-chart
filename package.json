@@ -12,7 +12,7 @@
     "visualization",
     "ultimate"
   ],
-  "author": "1ambda",
+  "author": "ZEPL",
   "license": "SEE LICENSE IN <LICENSE>",
   "dependencies": {
     "highcharts": "^5.0.10",
@@ -25,10 +25,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/1ambda/zeppelin-ultimate-heatmap-chart.git"
+    "url": "git+https://github.com/ZEPL/zeppelin-ultimate-heatmap-chart.git"
   },
   "bugs": {
-    "url": "https://github.com/1ambda/zeppelin-ultimate-heatmap-chart/issues"
+    "url": "https://github.com/ZEPL/zeppelin-ultimate-heatmap-chart/issues"
   },
-  "homepage": "https://github.com/1ambda/zeppelin-ultimate-heatmap-chart#readme"
+  "homepage": "https://github.com/ZEPL/zeppelin-ultimate-heatmap-chart#readme"
 }

@@ -2,6 +2,8 @@
 
 The Ultimate Heatmap Chart for Apache Zeppelin using [highcharts](https://www.amcharts.com/)
 
+![](https://raw.githubusercontent.com/ZEPL/zeppelin-ultimate-heatmap-chart/master/screenshots/640.gif)
+
 ## Compatibility
 
 | Chart Version | Zeppelin Version |

@@ -35,6 +35,14 @@ export default class Chart extends Visualization {
     return this.targetEl[0].id
   }
 
+  refresh() {
+    try {
+      this.chartInstance && this.chartInstance.setSize(this.targetEl.width())
+    } catch (e) {
+      console.warn(e)
+    }
+  }
+
   getChartElement() {
     return document.getElementById(this.getChartElementId())
   }

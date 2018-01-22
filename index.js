@@ -37,7 +37,7 @@ export default class Chart extends Visualization {
 
   refresh() {
     try {
-      this.chartInstance.setSize(this.targetEl.width())
+      this.chartInstance && this.chartInstance.setSize(this.targetEl.width())
     } catch (e) {
       console.warn(e)
     }

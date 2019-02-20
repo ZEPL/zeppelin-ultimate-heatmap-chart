@@ -150,7 +150,7 @@ export function createHeatmapChartOption(Highcharts, data, parameter, key1Names,
   }
 
   if (useColorAxisMin) { option.colorAxis.min = colorAxisMinValue }
-  if (useColorAxisMax) { option.colorAxis.min = colorAxisMaxValue }
+  if (useColorAxisMax) { option.colorAxis.max = colorAxisMaxValue }
   if (colorAxisStops !== '' && Array.isArray(colorAxisStops)) {
     option.colorAxis.stops = colorAxisStops
   }
